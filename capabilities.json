@@ -1,0 +1,17 @@
+{
+  "browserName": "${BROWSER}",
+  "browserVersion": "latest",
+  "LT:Options": {
+    "platform": "${OS}",
+    "build": "Playwright-Jest-Assignment",
+    "name": "Playwright Assignment Tests",
+    "selenium_version": "4.0.0",
+    "playwrightClientVersion": "1.45.0",
+    "video": true,
+    "network": true,
+    "console": true,
+    "visual": true,
+    "tunnel": false,
+    "w3c": true
+  }
+}

@@ -1,0 +1,228 @@
+{"level":"debug","time":"2025-09-28T04:12:57.759+0530","caller":"cmd/bin.go:144","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-09-28T04:12:58.576+0530","caller":"cmd/bin.go:153","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.307} "}
+{"level":"info","time":"2025-09-28T04:12:58.576+0530","caller":"cmd/bin.go:201","msg":"Generating TraceID for tracking request: 01K66NFY2MKVPGKE6QETQDQW39 \n"}
+{"level":"debug","time":"2025-09-28T04:13:01.468+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-09-28T04:13:01.469+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-09-28T04:13:01.469+0530","caller":"yamlconfigmanager/setup.go:726","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:13:01.469+0530","caller":"yamlconfigmanager/setup.go:118","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:13:02.520+0530","caller":"yamlconfigmanager/setup.go:2139","msg":"Autodetecting test type in files of path : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:13:02.520+0530","caller":"yamlconfigmanager/setup.go:2181","msg":"File in which test type is detected - /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/package.json"}
+{"level":"debug","time":"2025-09-28T04:13:02.520+0530","caller":"yamlconfigmanager/setup.go:2182","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-09-28T04:13:02.520+0530","caller":"yamlconfigmanager/setup.go:516","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-09-28T04:13:02.521+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Tunnel: false"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:902","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:763","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:771","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:835","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:867","msg":"Cache Directories:"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:869","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:02.521+0530","caller":"models/HypertestYamlConfig.go:915","msg":""}
+{"level":"debug","time":"2025-09-28T04:13:02.521+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:13:02.521+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-09-28T04:13:07.136+0530","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 26.33 % of your limit. Free trial mins left - 221.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-09-28T04:13:07.137+0530","caller":"core/lifecycle.go:527","msg":"Job ID: 4f8abd79-e405-49da-9abc-0cd80904c39a"}
+{"level":"debug","time":"2025-09-28T04:13:07.137+0530","caller":"core/lifecycle.go:530","msg":"User - surajsahu124, triggered job with ID 4f8abd79-e405-49da-9abc-0cd80904c39a from CLI"}
+{"level":"debug","time":"2025-09-28T04:13:07.137+0530","caller":"core/lifecycle.go:533","msg":"User has provided playwright as test type for the job with ID 4f8abd79-e405-49da-9abc-0cd80904c39a"}
+{"level":"debug","time":"2025-09-28T04:13:07.137+0530","caller":"events/manager.go:96","msg":"Starting event manager"}
+{"level":"debug","time":"2025-09-28T04:13:07.137+0530","caller":"events/manager.go:98","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-09-28T04:13:07.138+0530","caller":"archivemanager/setup.go:339","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-09-28T04:13:07.138+0530","caller":"archivemanager/setup.go:345","msg":"Creating archive of target directory: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:13:07.157+0530","caller":"core/lifecycle.go:684","msg":"Zip file size: 232.36 kB"}
+{"level":"debug","time":"2025-09-28T04:13:07.157+0530","caller":"core/lifecycle.go:694","msg":"Archive location: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-4f8abd79-e405-49da-9abc-0cd80904c39a.zip\n"}
+{"level":"debug","time":"2025-09-28T04:13:07.157+0530","caller":"storage/azure.go:59","msg":"Payload size: 232.36 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-4f8abd79-e405-49da-9abc-0cd80904c39a.zip"}
+{"level":"debug","time":"2025-09-28T04:13:07.157+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2025-09-28T04:13:07.217+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.10 kB, source path /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff"}
+{"level":"debug","time":"2025-09-28T04:13:08.275+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2025-09-28T04:13:08.398+0530","caller":"events/manager.go:280","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-09-28T04:13:09.907+0530","caller":"utils/azcopy.go:118","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2025-09-28T04:13:09.907+0530","caller":"utils/azcopy.go:194","msg":"returning from fallback"}
+{"level":"info","time":"2025-09-28T04:13:11.955+0530","caller":"storage/azure.go:114","msg":"File: /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff upload completed in 4.738601208s"}
+{"level":"info","time":"2025-09-28T04:13:13.942+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-4f8abd79-e405-49da-9abc-0cd80904c39a.zip upload completed in 6.785726s"}
+{"level":"debug","time":"2025-09-28T04:13:13.943+0530","caller":"receptionmanager/setup.go:271","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:13:13.943+0530","caller":"receptionmanager/setup.go:300","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:13:13.943+0530","caller":"receptionmanager/setup.go:185","msg":"Uploading yaml : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:13:13.943+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.61 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-09-28T04:13:15.972+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml upload completed in 2.028824291s"}
+{"level":"debug","time":"2025-09-28T04:13:15.972+0530","caller":"core/lifecycle.go:721","msg":"Successfully deleted code archive: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-4f8abd79-e405-49da-9abc-0cd80904c39a.zip\n"}
+{"level":"debug","time":"2025-09-28T04:13:15.972+0530","caller":"storage/azure.go:59","msg":"Payload size: 460 B, source path mask-4f8abd79-e405-49da-9abc-0cd80904c39a.yaml"}
+{"level":"info","time":"2025-09-28T04:13:18.002+0530","caller":"storage/azure.go:114","msg":"File: mask-4f8abd79-e405-49da-9abc-0cd80904c39a.yaml upload completed in 2.029678458s"}
+{"level":"debug","time":"2025-09-28T04:13:20.318+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759012999042949230WAQ"}
+{"level":"debug","time":"2025-09-28T04:13:20.318+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759012999042949230WAQ"}
+{"level":"debug","time":"2025-09-28T04:13:20.318+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759012999056487747GLJ"}
+{"level":"debug","time":"2025-09-28T04:13:20.318+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759012999056487747GLJ"}
+{"level":"info","time":"2025-09-28T04:13:21.397+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:13:21.477+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:13:22.098+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m4f8abd79-e405-49da-9abc-0cd80904c39a\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:13:22.099+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4f8abd79-e405-49da-9abc-0cd80904c39a\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-09-28T04:14:19.516+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (58s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:14:19.750+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:14:29.532+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (1m8s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:14:30.293+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:14:55.231+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mhypblogsearch.test.js (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:15:01.478+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mhyperexecute.test.js (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:15:04.939+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mlambdatest.test.js (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:15:11.904+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mltblogsearch.test.js (11s)\u001b[22m\n"}
+{"level":"debug","time":"2025-09-28T04:15:17.948+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"info","time":"2025-09-28T04:15:17.948+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759012999042949230WAQ has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2025-09-28T04:15:17.948+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759012999056487747GLJ has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"debug","time":"2025-09-28T04:15:17.948+0530","caller":"core/lifecycle.go:910","msg":"Context canceled"}
+{"level":"info","time":"2025-09-28T04:15:17.949+0530","caller":"core/lifecycle.go:913","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-09-28T04:15:17.949+0530","caller":"core/lifecycle.go:916","msg":"2025-09-28T04:12:56+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2025-09-28T04:15:17.949+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=4f8abd79-e405-49da-9abc-0cd80904c39a\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-09-28T04:15:17.949+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-09-28T04:15:17.949+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-09-28T04:15:17.949+0530","caller":"events/manager.go:330","msg":"context done and stopping SSE"}
+{"level":"debug","time":"2025-09-28T04:15:17.949+0530","caller":"events/manager.go:248","msg":"Stopping event manager"}
+{"level":"debug","time":"2025-09-28T04:15:17.949+0530","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-09-28T04:15:17.949+0530","caller":"cmd/bin.go:398","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2025-09-28T04:16:03.063+0530","caller":"cmd/bin.go:144","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-09-28T04:16:03.920+0530","caller":"cmd/bin.go:153","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.307} "}
+{"level":"info","time":"2025-09-28T04:16:03.920+0530","caller":"cmd/bin.go:201","msg":"Generating TraceID for tracking request: 01K66NNK5K6H9155P3JFB3FQSE \n"}
+{"level":"debug","time":"2025-09-28T04:16:06.229+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-09-28T04:16:06.230+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-09-28T04:16:06.230+0530","caller":"yamlconfigmanager/setup.go:726","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:16:06.231+0530","caller":"yamlconfigmanager/setup.go:118","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:16:07.237+0530","caller":"yamlconfigmanager/setup.go:2139","msg":"Autodetecting test type in files of path : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:16:07.238+0530","caller":"yamlconfigmanager/setup.go:2181","msg":"File in which test type is detected - /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/package.json"}
+{"level":"debug","time":"2025-09-28T04:16:07.238+0530","caller":"yamlconfigmanager/setup.go:2182","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-09-28T04:16:07.238+0530","caller":"yamlconfigmanager/setup.go:516","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-09-28T04:16:07.238+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Tunnel: false"}
+{"level":"info","time":"2025-09-28T04:16:07.238+0530","caller":"models/HypertestYamlConfig.go:902","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-09-28T04:16:07.240+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:07.240+0530","caller":"models/HypertestYamlConfig.go:763","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:07.240+0530","caller":"models/HypertestYamlConfig.go:771","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:07.240+0530","caller":"models/HypertestYamlConfig.go:835","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:07.241+0530","caller":"models/HypertestYamlConfig.go:867","msg":"Cache Directories:"}
+{"level":"info","time":"2025-09-28T04:16:07.241+0530","caller":"models/HypertestYamlConfig.go:869","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:07.241+0530","caller":"models/HypertestYamlConfig.go:915","msg":""}
+{"level":"debug","time":"2025-09-28T04:16:07.241+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:16:07.241+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-09-28T04:16:10.988+0530","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 27.67 % of your limit. Free trial mins left - 217.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-09-28T04:16:10.989+0530","caller":"core/lifecycle.go:527","msg":"Job ID: 19a964e3-9f8a-48c9-8487-6755091c1347"}
+{"level":"debug","time":"2025-09-28T04:16:10.989+0530","caller":"core/lifecycle.go:530","msg":"User - surajsahu124, triggered job with ID 19a964e3-9f8a-48c9-8487-6755091c1347 from CLI"}
+{"level":"debug","time":"2025-09-28T04:16:10.989+0530","caller":"events/manager.go:96","msg":"Starting event manager"}
+{"level":"debug","time":"2025-09-28T04:16:10.989+0530","caller":"events/manager.go:98","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-09-28T04:16:10.989+0530","caller":"core/lifecycle.go:533","msg":"User has provided playwright as test type for the job with ID 19a964e3-9f8a-48c9-8487-6755091c1347"}
+{"level":"debug","time":"2025-09-28T04:16:10.990+0530","caller":"archivemanager/setup.go:339","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-09-28T04:16:10.990+0530","caller":"archivemanager/setup.go:345","msg":"Creating archive of target directory: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:16:11.010+0530","caller":"core/lifecycle.go:684","msg":"Zip file size: 236.06 kB"}
+{"level":"debug","time":"2025-09-28T04:16:11.010+0530","caller":"core/lifecycle.go:694","msg":"Archive location: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-19a964e3-9f8a-48c9-8487-6755091c1347.zip\n"}
+{"level":"debug","time":"2025-09-28T04:16:11.010+0530","caller":"storage/azure.go:59","msg":"Payload size: 236.06 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-19a964e3-9f8a-48c9-8487-6755091c1347.zip"}
+{"level":"debug","time":"2025-09-28T04:16:11.074+0530","caller":"storage/azure.go:59","msg":"Payload size: 316.64 kB, source path /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff"}
+{"level":"debug","time":"2025-09-28T04:16:12.113+0530","caller":"events/manager.go:280","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-09-28T04:16:15.104+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-19a964e3-9f8a-48c9-8487-6755091c1347.zip upload completed in 4.093914334s"}
+{"level":"debug","time":"2025-09-28T04:16:15.104+0530","caller":"receptionmanager/setup.go:271","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:16:15.104+0530","caller":"receptionmanager/setup.go:300","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:16:15.104+0530","caller":"receptionmanager/setup.go:185","msg":"Uploading yaml : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:16:15.104+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.61 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-09-28T04:16:15.114+0530","caller":"storage/azure.go:114","msg":"File: /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff upload completed in 4.039802667s"}
+{"level":"info","time":"2025-09-28T04:16:17.134+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml upload completed in 2.029891042s"}
+{"level":"debug","time":"2025-09-28T04:16:17.135+0530","caller":"core/lifecycle.go:721","msg":"Successfully deleted code archive: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-19a964e3-9f8a-48c9-8487-6755091c1347.zip\n"}
+{"level":"debug","time":"2025-09-28T04:16:17.135+0530","caller":"storage/azure.go:59","msg":"Payload size: 460 B, source path mask-19a964e3-9f8a-48c9-8487-6755091c1347.yaml"}
+{"level":"info","time":"2025-09-28T04:16:19.171+0530","caller":"storage/azure.go:114","msg":"File: mask-19a964e3-9f8a-48c9-8487-6755091c1347.yaml upload completed in 2.036034125s"}
+{"level":"debug","time":"2025-09-28T04:16:21.369+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759013180077650869SMJ"}
+{"level":"debug","time":"2025-09-28T04:16:21.369+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759013180077650869SMJ"}
+{"level":"debug","time":"2025-09-28T04:16:21.369+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759013180092591504THD"}
+{"level":"debug","time":"2025-09-28T04:16:21.369+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759013180092591504THD"}
+{"level":"info","time":"2025-09-28T04:16:22.515+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:16:22.606+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:16:23.270+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4m19a964e3-9f8a-48c9-8487-6755091c1347\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:16:23.270+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=19a964e3-9f8a-48c9-8487-6755091c1347\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-09-28T04:17:11.715+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (50s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:12.394+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:13.003+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (51s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:13.239+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:37.569+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mhyperexecute.test.js (24s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:44.914+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mhypblogsearch.test.js (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:46.988+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mltblogsearch.test.js (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:17:54.758+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mlambdatest.test.js (11s)\u001b[22m\n"}
+{"level":"debug","time":"2025-09-28T04:18:01.090+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"info","time":"2025-09-28T04:18:01.091+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759013180077650869SMJ has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2025-09-28T04:18:01.091+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759013180092591504THD has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"debug","time":"2025-09-28T04:18:01.091+0530","caller":"core/lifecycle.go:910","msg":"Context canceled"}
+{"level":"info","time":"2025-09-28T04:18:01.091+0530","caller":"core/lifecycle.go:913","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-09-28T04:18:01.091+0530","caller":"core/lifecycle.go:916","msg":"2025-09-28T04:16:02+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"debug","time":"2025-09-28T04:18:01.092+0530","caller":"taskstagemanager/sse_tracker.go:139","msg":"Context cancelled, stopping SSE stage tracking"}
+{"level":"info","time":"2025-09-28T04:18:01.092+0530","caller":"events/manager.go:330","msg":"context done and stopping SSE"}
+{"level":"debug","time":"2025-09-28T04:18:01.092+0530","caller":"events/manager.go:248","msg":"Stopping event manager"}
+{"level":"info","time":"2025-09-28T04:18:01.092+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=19a964e3-9f8a-48c9-8487-6755091c1347\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-09-28T04:18:01.092+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-09-28T04:18:01.093+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2025-09-28T04:18:01.093+0530","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-09-28T04:18:01.093+0530","caller":"cmd/bin.go:398","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2025-09-28T04:23:05.101+0530","caller":"cmd/bin.go:144","msg":"cli os: darwin, cli arch: arm64"}
+{"level":"debug","time":"2025-09-28T04:23:05.906+0530","caller":"cmd/bin.go:153","msg":"Upstream version details: {Name:cli Min:0.2.265 Max:0.2.307} "}
+{"level":"info","time":"2025-09-28T04:23:05.906+0530","caller":"cmd/bin.go:201","msg":"Generating TraceID for tracking request: 01K66P2FATEM937QY9P2Z4T9F0 \n"}
+{"level":"debug","time":"2025-09-28T04:23:08.441+0530","caller":"core/lifecycle.go:107","msg":"Setting environment"}
+{"level":"debug","time":"2025-09-28T04:23:08.442+0530","caller":"core/lifecycle.go:110","msg":"Parsing config"}
+{"level":"debug","time":"2025-09-28T04:23:08.442+0530","caller":"yamlconfigmanager/setup.go:726","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:23:08.442+0530","caller":"yamlconfigmanager/setup.go:118","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:23:09.451+0530","caller":"yamlconfigmanager/setup.go:2139","msg":"Autodetecting test type in files of path : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:23:09.452+0530","caller":"yamlconfigmanager/setup.go:2181","msg":"File in which test type is detected - /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/package.json"}
+{"level":"debug","time":"2025-09-28T04:23:09.452+0530","caller":"yamlconfigmanager/setup.go:2182","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2025-09-28T04:23:09.452+0530","caller":"yamlconfigmanager/setup.go:516","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2025-09-28T04:23:09.452+0530","caller":"yamlconfigmanager/setup.go:548","msg":"Tunnel: false"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:902","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:703","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:763","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:771","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:835","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:867","msg":"Cache Directories:"}
+{"level":"info","time":"2025-09-28T04:23:09.452+0530","caller":"models/HypertestYamlConfig.go:869","msg":"    \u001b[36mnode_modules\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:09.453+0530","caller":"models/HypertestYamlConfig.go:915","msg":""}
+{"level":"debug","time":"2025-09-28T04:23:09.453+0530","caller":"filevalidator/setup.go:49","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:23:09.453+0530","caller":"filevalidator/setup.go:53","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2025-09-28T04:23:13.191+0530","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 28.67 % of your limit. Free trial mins left - 214.00\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2025-09-28T04:23:13.191+0530","caller":"core/lifecycle.go:527","msg":"Job ID: e77b98d1-06c6-46ee-a675-ec4019bf4ffa"}
+{"level":"debug","time":"2025-09-28T04:23:13.191+0530","caller":"core/lifecycle.go:530","msg":"User - surajsahu124, triggered job with ID e77b98d1-06c6-46ee-a675-ec4019bf4ffa from CLI"}
+{"level":"debug","time":"2025-09-28T04:23:13.191+0530","caller":"core/lifecycle.go:533","msg":"User has provided playwright as test type for the job with ID e77b98d1-06c6-46ee-a675-ec4019bf4ffa"}
+{"level":"debug","time":"2025-09-28T04:23:13.191+0530","caller":"events/manager.go:96","msg":"Starting event manager"}
+{"level":"debug","time":"2025-09-28T04:23:13.191+0530","caller":"events/manager.go:98","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2025-09-28T04:23:13.194+0530","caller":"archivemanager/setup.go:339","msg":"digestMap: map[]"}
+{"level":"debug","time":"2025-09-28T04:23:13.194+0530","caller":"archivemanager/setup.go:345","msg":"Creating archive of target directory: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest"}
+{"level":"debug","time":"2025-09-28T04:23:13.213+0530","caller":"core/lifecycle.go:684","msg":"Zip file size: 236.10 kB"}
+{"level":"debug","time":"2025-09-28T04:23:13.213+0530","caller":"core/lifecycle.go:694","msg":"Archive location: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.zip\n"}
+{"level":"debug","time":"2025-09-28T04:23:13.213+0530","caller":"storage/azure.go:59","msg":"Payload size: 236.10 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.zip"}
+{"level":"debug","time":"2025-09-28T04:23:13.274+0530","caller":"storage/azure.go:59","msg":"Payload size: 318.30 kB, source path /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff"}
+{"level":"debug","time":"2025-09-28T04:23:14.360+0530","caller":"events/manager.go:280","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2025-09-28T04:23:17.297+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.zip upload completed in 4.083782833s"}
+{"level":"debug","time":"2025-09-28T04:23:17.297+0530","caller":"receptionmanager/setup.go:271","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:23:17.297+0530","caller":"receptionmanager/setup.go:300","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2025-09-28T04:23:17.297+0530","caller":"receptionmanager/setup.go:185","msg":"Uploading yaml : /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2025-09-28T04:23:17.297+0530","caller":"storage/azure.go:59","msg":"Payload size: 3.61 kB, source path /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml"}
+{"level":"info","time":"2025-09-28T04:23:17.306+0530","caller":"storage/azure.go:114","msg":"File: /var/folders/dj/kpsz7xfj39q5w2c5z1jwsst00000gn/T/git.diff upload completed in 4.031867125s"}
+{"level":"info","time":"2025-09-28T04:23:19.326+0530","caller":"storage/azure.go:114","msg":"File: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/.updatedhyperexecute.yaml upload completed in 2.029037584s"}
+{"level":"debug","time":"2025-09-28T04:23:19.326+0530","caller":"core/lifecycle.go:721","msg":"Successfully deleted code archive: /Users/surajsahu/Desktop/Coding/New/HyperExecute-Playwright-Jest/hyperexecute-code-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.zip\n"}
+{"level":"debug","time":"2025-09-28T04:23:19.327+0530","caller":"storage/azure.go:59","msg":"Payload size: 460 B, source path mask-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.yaml"}
+{"level":"info","time":"2025-09-28T04:23:21.355+0530","caller":"storage/azure.go:114","msg":"File: mask-e77b98d1-06c6-46ee-a675-ec4019bf4ffa.yaml upload completed in 2.028486125s"}
+{"level":"debug","time":"2025-09-28T04:23:23.556+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759013602241574499ZHS"}
+{"level":"debug","time":"2025-09-28T04:23:23.556+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759013602241574499ZHS"}
+{"level":"debug","time":"2025-09-28T04:23:23.556+0530","caller":"jobmanager/sse_setup.go:199","msg":"Task id: HYPW-2014985-1759013602268417897SLB"}
+{"level":"debug","time":"2025-09-28T04:23:23.556+0530","caller":"jobmanager/sse_setup.go:200","msg":"Sending new task alert to stage manager for taskId: HYPW-2014985-1759013602268417897SLB"}
+{"level":"info","time":"2025-09-28T04:23:25.296+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob \u001b[1m\u001b[4me77b98d1-06c6-46ee-a675-ec4019bf4ffa\u001b[24m\u001b[22m has started \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2025-09-28T04:23:25.296+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e77b98d1-06c6-46ee-a675-ec4019bf4ffa\u001b[0m\u001b[24m\n"}
+{"level":"info","time":"2025-09-28T04:23:28.193+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (4s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:23:28.233+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (4s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:04.114+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (36s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:04.154+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (36s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:04.392+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:04.402+0530","caller":"terminal/terminal.go:187","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (0s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:27.549+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mhyperexecute.test.js (21s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:28.774+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mhypblogsearch.test.js (23s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:37.346+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mltblogsearch.test.js (10s)\u001b[22m\n"}
+{"level":"info","time":"2025-09-28T04:24:37.994+0530","caller":"terminal/terminal.go:187","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mlambdatest.test.js (10s)\u001b[22m\n"}
+{"level":"debug","time":"2025-09-28T04:24:42.291+0530","caller":"jobmanager/sse_setup.go:141","msg":"\n\nJob status"}
+{"level":"info","time":"2025-09-28T04:24:42.291+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759013602241574499ZHS has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"info","time":"2025-09-28T04:24:42.291+0530","caller":"core/lifecycle.go:811","msg":"taskId:HYPW-2014985-1759013602268417897SLB has failed with remark: Job failed as encountered a Test level failure\n"}
+{"level":"debug","time":"2025-09-28T04:24:42.291+0530","caller":"core/lifecycle.go:910","msg":"Context canceled"}
+{"level":"info","time":"2025-09-28T04:24:42.292+0530","caller":"core/lifecycle.go:913","msg":"\u001b[2mStopping pipeline gracefully\u001b[22m"}
+{"level":"error","time":"2025-09-28T04:24:42.292+0530","caller":"core/lifecycle.go:916","msg":"2025-09-28T04:23:04+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"taskstagemanager/sse_tracker.go:139","msg":"Context cancelled, stopping SSE stage tracking"}
+{"level":"info","time":"2025-09-28T04:24:42.292+0530","caller":"jobmanager/manager.go:143","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e77b98d1-06c6-46ee-a675-ec4019bf4ffa\u001b[0m\u001b[24m\n"}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"core/lifecycle.go:59","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"core/lifecycle.go:60","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2025-09-28T04:24:42.292+0530","caller":"events/manager.go:330","msg":"context done and stopping SSE"}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"events/manager.go:248","msg":"Stopping event manager"}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"core/lifecycle.go:63","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2025-09-28T04:24:42.292+0530","caller":"cmd/bin.go:398","msg":"Exiting application due to error Failed tasks found."}

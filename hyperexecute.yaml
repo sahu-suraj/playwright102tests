@@ -1,0 +1,38 @@
+version: 0.1
+runner:
+  type: playwright
+
+matrix:
+  os: [win10, linux]
+  browser: [chrome, firefox]
+
+env:
+  secrets:
+    LT_USERNAME: ${{ secrets.LT_USERNAME }}
+    LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
+  vars:
+    BASE_URL: "https://www.lambdatest.com/selenium-playground"
+    OS: ${{ matrix.os }}
+    BROWSER: ${{ matrix.browser }}
+
+pre:
+  - npm install
+  - echo "Dependencies installed"
+
+cache:
+  paths:
+    - node_modules
+
+testSuites:
+  - |
+    node -e "let fs=require('fs');let cap=fs.readFileSync('capabilities.json','utf8');cap=cap.replace(/\${OS}/g,process.env.OS).replace(/\${BROWSER}/g,process.env.BROWSER);fs.writeFileSync('resolved-capabilities.json',cap);" \
+    && npx jest --maxWorkers=2 --runInBand --testMatch="**/tests/**/*.test.js"
+
+target:
+  os: ${{ matrix.os }}
+  browser: ${{ matrix.browser }}
+
+post:
+  - echo "Tests completed!"
+  - tar -czf artifacts.tar.gz ./test-results || echo "No test-results dir"
+  - mkdir -p artifacts && mv artifacts.tar.gz artifacts/ || echo "No artifacts to move"
